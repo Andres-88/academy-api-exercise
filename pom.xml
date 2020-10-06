@@ -28,6 +28,14 @@
     </properties>
     <profiles>
         <profile>
+            <id>Ejecutable</id>
+            <activation>
+            </activation>
+            <properties>
+                <apiExample.runner>testng.xml</apiExample.runner>
+            </properties>
+        </profile>
+        <profile>
             <id>Secuencial</id>
             <activation>
             </activation>

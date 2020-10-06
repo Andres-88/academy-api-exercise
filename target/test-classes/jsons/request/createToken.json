@@ -1,0 +1,7 @@
+{
+  "url": "http://vps2.crowdaronline.com:8083/user/authenticate",
+  "urlParameters":{
+    "username": "admin",
+    "password": "password"
+  }
+}

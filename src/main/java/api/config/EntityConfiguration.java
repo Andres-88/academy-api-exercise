@@ -1,23 +1,24 @@
 package api.config;
 
-import services.ResponseHeadersService;
-import services.UserService;
+import services.*;
 
 public enum EntityConfiguration {
 
     USER {
         @Override
         public Class<?> getEntityService() {
-            return UserService.class;
+            return CreateUserService.class;
         }
 
     },
-    RESPONSE_HEADERS {
+
+    CREATETOKEN{
         @Override
         public Class<?> getEntityService() {
-            return ResponseHeadersService.class;
+            return CreateTokenService.class;
         }
     };
+
 
     public abstract Class<?> getEntityService();
 }

@@ -1,0 +1,6 @@
+{
+  "url": "http://vps2.crowdaronline.com:8083/rest/user/me",
+  "headers":{
+    "Authorization": "Bearer {{token}}"
+  }
+}

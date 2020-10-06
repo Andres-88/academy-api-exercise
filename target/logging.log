@@ -1,0 +1,16 @@
+06/10/20 13:38:54 INFO  BasicHook:20 - ------ Starting -----Obtener token-----
+06/10/20 13:38:54 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}
+06/10/20 13:38:56 INFO  RestClient:90 - >>>Response: <200 OK,api.model.TokenCreated@1d6540c4,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Tue, 06 Oct 2020 16:38:55 GMT]}>
+06/10/20 13:38:56 INFO  BasicHook:35 - ------ Ending -----Obtener token-----
+06/10/20 13:38:56 INFO  BasicHook:20 - ------ Starting -----Obtener usuario-----
+06/10/20 13:38:56 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAyMDAyMzM1LCJleHAiOjE2MDIwODg3MzV9.ft33j05-zyAQZPJSAG6ZQH-AaRExdqm8xgZy6VKv6z4PF2GreSfFNLemLa6CZ7NOSQM7gm3I7fkdJmhGFSpDuw}
+06/10/20 13:38:56 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCreated@6c71826,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 06 Oct 2020 16:38:55 GMT]}>
+06/10/20 13:38:56 INFO  BasicHook:35 - ------ Ending -----Obtener usuario-----
+06/10/20 13:42:34 INFO  BasicHook:20 - ------ Starting -----Obtener token-----
+06/10/20 13:42:35 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/user/authenticate, {username=admin, password=password}
+06/10/20 13:42:36 INFO  RestClient:90 - >>>Response: <200 OK,api.model.TokenCreated@1811bf56,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=ISO-8859-1], Content-Length=[277], Date=[Tue, 06 Oct 2020 16:42:35 GMT]}>
+06/10/20 13:42:36 INFO  BasicHook:35 - ------ Ending -----Obtener token-----
+06/10/20 13:42:36 INFO  BasicHook:20 - ------ Starting -----Obtener usuario-----
+06/10/20 13:42:36 INFO  MethodsService:109 - >>>Request: http://vps2.crowdaronline.com:8083/rest/user/me, {Authorization=Bearer eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJMaXBwaWEtUmVwb3J0LVNlcnZlciIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjAyMDAyNTU1LCJleHAiOjE2MDIwODg5NTV9.ePeLlrNKnzU_RrlGta5lximLeQ7z3bNaWjVpD8gE0rZk5T67ub0k2na9UZuosihs96_JmP7Gn2muSsAnBPTWAQ}
+06/10/20 13:42:36 INFO  RestClient:90 - >>>Response: <200 OK,api.model.UserCreated@5915f793,{X-Content-Type-Options=[nosniff], X-XSS-Protection=[1; mode=block], Cache-Control=[no-cache, no-store, max-age=0, must-revalidate], Pragma=[no-cache], Expires=[0], X-Frame-Options=[DENY], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Tue, 06 Oct 2020 16:42:35 GMT]}>
+06/10/20 13:42:36 INFO  BasicHook:35 - ------ Ending -----Obtener usuario-----
